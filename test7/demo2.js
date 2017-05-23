@@ -1,3 +1,4 @@
-/**
- * Created by douqing on 17-5-23.
- */
+var server = require("./demo1");
+var router = require("./demo3");
+
+server.start(router.route);
